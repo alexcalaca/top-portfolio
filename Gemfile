@@ -18,6 +18,8 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 gem 'friendly_id', '~> 5.1.0'
+gem 'devise', '~> 4.4', '>= 4.4.3'
+
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
