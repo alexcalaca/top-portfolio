@@ -12,7 +12,7 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4', '>= 4.4.3'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'petergate', '~> 1.8', '>= 1.8.1'
-
+gem 'bootstrap', '~> 4.1.0'
 
 group :development, :test do
   gem 'byebug'
