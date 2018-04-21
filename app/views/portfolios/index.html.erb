@@ -1,4 +1,8 @@
-<h1>Index</h1>
-
-<%= link_to "Create new item", new_portfolio_path  if logged_in?(:admin, :customer, :etc) %>
-<%= render partial: 'portfolio_item', collection: @portfolio_items %>
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <%= link_to "Create new item", new_portfolio_path  if logged_in?(:admin, :customer, :etc) %>
+      <%= render partial: 'portfolio_item', collection: @portfolio_items %>
+    </div>
+  </div>
+</div>
