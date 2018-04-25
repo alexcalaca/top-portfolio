@@ -6,6 +6,10 @@ class Portfolio < ApplicationRecord
   
   validates_presence_of :title, :body, :thumb_image, :main_image
   
+  def self.by_position
+    order("position ASC")
+  end
+  
   def self.angular
     where(title: "Angular")
   end
